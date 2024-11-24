@@ -532,7 +532,6 @@ img {
 }
 
 .footer-form-input {
-    border: none;
     border-radius: 4px;
     width: 264px;
     height: 40px; 
@@ -550,6 +549,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     cursor: pointer;
+    border: 1px solid #ffffff;
 }
 
 .footer-form-btn {
@@ -564,11 +564,15 @@ img {
 
     background: #4d5ae5;
 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+
+    cursor: pointer;
+    border: none;
 }
 
 .footer-form-btn:focus, 
@@ -662,10 +666,10 @@ img {
     border: none;
 }
 
-.modal-btn-icon:hover {
+.modal-btn:hover .modal-btn-icon {
     fill: #ffffff;
 }
-.modal-btn-icon:focus {
+.modal-btn:focus .modal-btn-icon {
     fill: #ffffff;
 }
 
